@@ -95,6 +95,22 @@ FlowRouter.route('/contracts', {
 
 
 /**
+The Credits route.
+
+@method tokens
+*/
+FlowRouter.route('/credits', {
+    name: 'credits',
+    action: function(params, queryParams) {
+        BlazeLayout.render('layout_main', {
+            header: 'layout_header',
+            main: 'views_credits'
+        });
+    }
+});
+
+
+/**
 The send route.
 
 @method send

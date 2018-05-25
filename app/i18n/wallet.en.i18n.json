@@ -12,6 +12,7 @@
             "buttons": {
                 "wallet": "Wallets",
                 "send": "Send",
+                "credits": "Credits",
                 "contracts": "Contracts",
                 "deploy": "Deploy",
                 "tokens": "Tokens",
@@ -294,6 +295,13 @@
             "error": {
                 "invalidAddress": "Token not added.  Invalid address."
             }
+        },
+        "credits": {
+            "creditsH1": "P2P Credits",
+            "descriptionH1": "P2P Credit offers loan access to borrowers and access to consumer loans for investors. Any person or company can apply for a personal loan at a low rate or invest in consumer loan notes.",
+            "linkP2P" : "WISEPLAT_P2P_Credits_1920_ok_en.jpg",
+            "creditsH2": "Recommendations",
+            "descriptionH2": "* The estimated value of collateral must exceed the requested amount by 2 or more times. * The valuation company must be in TOP 25."
         },
         "contracts": {
             "contractTitle" : "Contracts",
